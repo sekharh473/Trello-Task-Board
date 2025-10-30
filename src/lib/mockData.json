@@ -1,0 +1,25 @@
+{
+  "columns": [
+    {
+      "id": "todo",
+      "title": "To Do",
+      "taskIds": ["t1", "t2"]
+    },
+    {
+      "id": "inprogress",
+      "title": "In Progress",
+      "taskIds": ["t3"]
+    },
+    {
+      "id": "done",
+      "title": "Done",
+      "taskIds": ["t4"]
+    }
+  ],
+  "tasks": {
+    "t1": { "id": "t1", "title": "Design login page" },
+    "t2": { "id": "t2", "title": "Setup API integration" },
+    "t3": { "id": "t3", "title": "Implement drag and drop" },
+    "t4": { "id": "t4", "title": "Deploy to server" }
+  }
+}
